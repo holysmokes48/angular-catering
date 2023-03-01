@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Locations</h1>
+    <br><br><br><br>
+    <div class="container">
+        <ul>
+            <div *ngFor="let loc of locationLists">
+                <h4>{{loc.location}}</h4>
+                <img src="{{loc.url}}" height="25%" width="50%" alt="{{loc.altName}}"><br><br>
+                
+                <li>Address: {{loc.street}} <br> <span>{{loc.city}}</span></li><br>
+                <br><br>
+                <hr>
+                <br><br>
+            </div>
+
+
+        </ul>
+    </div>
+</div>
+
+

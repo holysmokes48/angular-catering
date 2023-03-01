@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Services</h1>
+  <br><br><br><br>
+  <div class="container">
+
+        <div *ngFor="let cater of serviceList">
+          <img src="{{cater.url}}" height="25%" width="50%" alt="{{cater.altName}}">
+          <h4>{{cater.caterType}}</h4>
+
+          <br><br>
+          <hr>
+          <br><br>
+        </div>
+
+  </div>
+</div>
